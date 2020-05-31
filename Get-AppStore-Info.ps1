@@ -1,5 +1,5 @@
 # Ask for Appstore ID
-$AppID = Read-Host "What is the AppStore ID of the App?"
+$AppID = Read-Host "What is the App Store ID of the App?"
 
 # Get all app information from Apple
 $response = Invoke-RestMethod "https://itunes.apple.com/gb/lookup?id=$AppID" -Method 'GET' -Headers $headers -Body $body -SkipCertificateCheck | `
