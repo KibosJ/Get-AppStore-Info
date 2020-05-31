@@ -1,0 +1,7 @@
+# Block everything 
+*
+
+# Whitelist
+!.gitignore
+!*.md
+!*.ps1
